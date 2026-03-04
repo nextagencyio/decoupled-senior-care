@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Golden Horizons Senior Living",
+          "path": "/homepage",
+          "heroTitle": "Where Every Day Feels Like Home",
+          "heroSubtitle": "Compassionate Senior Care, Vibrant Community Living",
+          "heroDescription": {
+            "processed": "<p>At Golden Horizons, we believe every senior deserves to live with dignity, joy, and purpose. Our award-winning communities offer personalized care plans, engaging activities, and a warm, welcoming environment where residents thrive.</p>",
+            "summary": "At Golden Horizons, we believe every senior deserves to live with dignity, joy, and purpose. Our award-winning communities offer personalized care plans, engaging activities, and a warm, welcoming env"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-residents",
+              "title": "",
+              "number": "500+",
+              "label": "Happy Residents"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-staff",
+              "title": "",
+              "number": "200+",
+              "label": "Dedicated Staff"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "25+",
+              "label": "Years of Service"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-satisfaction",
+              "title": "",
+              "number": "98%",
+              "label": "Family Satisfaction"
+            }
+          ],
+          "featuredCommunitiesTitle": "Our Communities",
+          "ctaTitle": "Ready to Learn More?",
+          "ctaDescription": {
+            "processed": "<p>Schedule a personal tour of any of our communities and discover the Golden Horizons difference. Our care advisors are here to answer your questions and help find the perfect fit for your loved one.</p>",
+            "summary": "Schedule a personal tour of any of our communities and discover the Golden Horizons difference. Our care advisors are here to answer your questions and help find the perfect fit for your loved one."
+          },
+          "ctaPrimary": "Schedule a Tour",
+          "ctaSecondary": "Call (555) 800-2500"
+        }
+      ]
+    }
+  }
+}

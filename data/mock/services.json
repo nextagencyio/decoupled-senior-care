@@ -1,0 +1,181 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-memory-care",
+          "title": "Memory Care",
+          "path": "/services/memory-care",
+          "body": {
+            "processed": "<p>Our Memory Care program provides specialized, compassionate support for individuals living with Alzheimer's disease and other forms of dementia. Using evidence-based approaches and person-centered care, we help residents maintain their highest level of functioning while ensuring safety and comfort.</p><h2>Our Approach</h2><ul><li>Individualized care plans based on cognitive assessments</li><li>Montessori-inspired engagement activities</li><li>Structured daily routines to reduce anxiety</li><li>Reminiscence therapy and life story work</li><li>Trained dementia care specialists on staff 24/7</li></ul><h2>Family Support</h2><p>We understand that dementia affects the entire family. Our memory care program includes regular family meetings, educational workshops, and support groups to help loved ones navigate the journey together.</p>",
+            "summary": "Our Memory Care program provides specialized, compassionate support for individuals living with Alzheimer's disease and other forms of dementia. Using evidence-based approaches and person-centered car"
+          },
+          "serviceCategory": [
+            {
+              "id": "healthcare",
+              "name": "healthcare"
+            }
+          ],
+          "availability": "24/7",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Memory care specialist working with a senior resident",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-rehabilitation",
+          "title": "Rehabilitation Services",
+          "path": "/services/rehabilitation",
+          "body": {
+            "processed": "<p>Our comprehensive rehabilitation program helps residents recover from surgery, injury, or illness and regain their independence. Our team of licensed therapists creates personalized treatment plans designed to achieve measurable outcomes and improve quality of life.</p><h2>Therapy Services</h2><ul><li>Physical therapy for strength and mobility</li><li>Occupational therapy for daily living skills</li><li>Speech-language therapy for communication and swallowing</li><li>Cardiac and pulmonary rehabilitation</li><li>Pain management programs</li></ul><h2>State-of-the-Art Facilities</h2><p>Our rehabilitation center features modern equipment including parallel bars, therapeutic exercise machines, a therapy kitchen for daily living practice, and a heated therapy pool for aquatic rehabilitation.</p>",
+            "summary": "Our comprehensive rehabilitation program helps residents recover from surgery, injury, or illness and regain their independence. Our team of licensed therapists creates personalized treatment plans de"
+          },
+          "serviceCategory": [
+            {
+              "id": "therapy",
+              "name": "therapy"
+            }
+          ],
+          "availability": "Monday through Saturday, 7:00 AM - 6:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Rehabilitation therapist assisting a patient with exercises",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-home-health",
+          "title": "Home Health Services",
+          "path": "/services/home-health",
+          "body": {
+            "processed": "<p>Golden Horizons Home Health brings professional care services directly to seniors in their own homes. Our licensed caregivers and nurses provide personalized support that allows seniors to age in place safely while maintaining their independence and comfort.</p><h2>Services Offered</h2><ul><li>Skilled nursing visits</li><li>Personal care assistance (bathing, grooming, dressing)</li><li>Medication reminders and management</li><li>Meal preparation and nutrition support</li><li>Light housekeeping and laundry</li><li>Transportation to appointments</li></ul><h2>Flexible Scheduling</h2><p>We offer flexible scheduling options including hourly visits, half-day care, full-day care, and 24-hour live-in assistance. Our care coordinators work with each family to create a schedule that meets their unique needs.</p>",
+            "summary": "Golden Horizons Home Health brings professional care services directly to seniors in their own homes. Our licensed caregivers and nurses provide personalized support that allows seniors to age in plac"
+          },
+          "serviceCategory": [
+            {
+              "id": "home-health",
+              "name": "home-health"
+            }
+          ],
+          "availability": "Flexible scheduling, 7 days a week",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576765608622-067973a79f53?w=800&q=80",
+            "alt": "Home health caregiver visiting a senior at home",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576765608622-067973a79f53?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576765608622-067973a79f53?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576765608622-067973a79f53?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-wellness",
+          "title": "Wellness Programs",
+          "path": "/services/wellness-programs",
+          "body": {
+            "processed": "<p>Our holistic wellness programs are designed to nurture the physical, mental, emotional, and spiritual well-being of every resident. From fitness classes to mindfulness sessions, we offer a wide range of programs that promote healthy aging and vibrant living.</p><h2>Program Areas</h2><ul><li>Exercise and fitness classes</li><li>Nutritional counseling and healthy cooking</li><li>Stress reduction and mindfulness</li><li>Health screenings and preventive care</li><li>Fall prevention programs</li><li>Chronic disease management education</li></ul><h2>Wellness Assessments</h2><p>Each resident receives a comprehensive wellness assessment upon move-in and quarterly thereafter. Our wellness team uses these assessments to create personalized wellness plans that address individual goals and health needs.</p>",
+            "summary": "Our holistic wellness programs are designed to nurture the physical, mental, emotional, and spiritual well-being of every resident. From fitness classes to mindfulness sessions, we offer a wide range "
+          },
+          "serviceCategory": [
+            {
+              "id": "wellness",
+              "name": "wellness"
+            }
+          ],
+          "availability": "Daily programs available",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+            "alt": "Senior residents participating in a wellness class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

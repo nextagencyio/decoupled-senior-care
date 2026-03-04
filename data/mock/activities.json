@@ -1,0 +1,189 @@
+{
+  "data": {
+    "nodeActivities": {
+      "__typename": "NodeActivityConnection",
+      "nodes": [
+        {
+          "__typename": "NodeActivity",
+          "id": "activity-yoga",
+          "title": "Yoga for Seniors",
+          "path": "/activities/yoga-for-seniors",
+          "body": {
+            "processed": "<p>Our gentle yoga classes are specially designed for older adults of all ability levels. Using chair-based and standing poses, residents improve flexibility, balance, and strength while reducing stress and promoting relaxation.</p><h2>Class Format</h2><p>Each 45-minute session includes gentle warm-up movements, modified yoga poses appropriate for all mobility levels, breathing exercises, and a guided relaxation period. Props such as chairs, blocks, and straps are provided to ensure comfort and safety.</p><h2>Benefits</h2><ul><li>Improved flexibility and range of motion</li><li>Better balance and fall prevention</li><li>Reduced joint pain and stiffness</li><li>Lower stress and improved sleep quality</li><li>Enhanced sense of community and well-being</li></ul>",
+            "summary": "Our gentle yoga classes are specially designed for older adults of all ability levels. Using chair-based and standing poses, residents improve flexibility, balance, and strength while reducing stress "
+          },
+          "activityType": [
+            {
+              "id": "fitness",
+              "name": "fitness"
+            }
+          ],
+          "schedule": "Monday, Wednesday, Friday at 9:00 AM",
+          "location": "Wellness Studio, Building A",
+          "instructor": "Sarah Mitchell, RYT-200",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+            "alt": "Seniors practicing gentle yoga together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeActivity",
+          "id": "activity-art-therapy",
+          "title": "Art Therapy",
+          "path": "/activities/art-therapy",
+          "body": {
+            "processed": "<p>Our Art Therapy program provides creative expression opportunities that support emotional well-being, cognitive stimulation, and social connection. Led by a certified art therapist, sessions are designed to be enjoyable and accessible regardless of artistic experience.</p><h2>Activities Include</h2><ul><li>Watercolor and acrylic painting</li><li>Clay sculpting and pottery</li><li>Collage and mixed media</li><li>Drawing and sketching</li><li>Seasonal craft projects</li></ul><h2>Therapeutic Benefits</h2><p>Art therapy has been shown to reduce anxiety, improve mood, and enhance cognitive function in older adults. Our program is especially beneficial for residents with memory challenges, providing a non-verbal outlet for expression and connection.</p>",
+            "summary": "Our Art Therapy program provides creative expression opportunities that support emotional well-being, cognitive stimulation, and social connection. Led by a certified art therapist, sessions are desig"
+          },
+          "activityType": [
+            {
+              "id": "arts",
+              "name": "arts"
+            }
+          ],
+          "schedule": "Tuesday and Thursday at 2:00 PM",
+          "location": "Art Studio, Community Center",
+          "instructor": "David Chen, ATR-BC",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Seniors enjoying art therapy painting session",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeActivity",
+          "id": "activity-social-hours",
+          "title": "Social Hours & Community Events",
+          "path": "/activities/social-hours",
+          "body": {
+            "processed": "<p>Our vibrant social calendar brings residents together for meaningful connections, laughter, and shared experiences. From happy hours to holiday celebrations, our activities team creates opportunities for friendship and fun throughout the year.</p><h2>Regular Events</h2><ul><li>Friday Afternoon Social Hour with live music</li><li>Monthly birthday celebrations</li><li>Game nights (bingo, trivia, card games)</li><li>Movie matinees with popcorn</li><li>Holiday parties and seasonal celebrations</li><li>Intergenerational programs with local schools</li></ul><h2>Community Outings</h2><p>We organize regular group outings to local restaurants, theaters, museums, and parks. Our comfortable transportation vehicles are wheelchair-accessible, ensuring everyone can participate.</p>",
+            "summary": "Our vibrant social calendar brings residents together for meaningful connections, laughter, and shared experiences. From happy hours to holiday celebrations, our activities team creates opportunities "
+          },
+          "activityType": [
+            {
+              "id": "social",
+              "name": "social"
+            }
+          ],
+          "schedule": "Friday at 3:00 PM, plus special events monthly",
+          "location": "Grand Hall, Community Center",
+          "instructor": "Activities Team",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+            "alt": "Senior residents enjoying a social gathering together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeActivity",
+          "id": "activity-garden-club",
+          "title": "Garden Club",
+          "path": "/activities/garden-club",
+          "body": {
+            "processed": "<p>The Golden Horizons Garden Club gives residents the chance to connect with nature and enjoy the therapeutic benefits of gardening. Our raised garden beds and accessible greenhouse make it easy for residents of all mobility levels to participate in planting, tending, and harvesting.</p><h2>Activities</h2><ul><li>Seasonal planting and harvesting</li><li>Container gardening workshops</li><li>Flower arranging classes</li><li>Herb garden maintenance</li><li>Nature walks on campus trails</li></ul><h2>Benefits</h2><p>Gardening provides gentle exercise, sensory stimulation, and a sense of purpose and accomplishment. Residents enjoy sharing their harvest with the community kitchen and creating beautiful flower arrangements for common areas.</p>",
+            "summary": "The Golden Horizons Garden Club gives residents the chance to connect with nature and enjoy the therapeutic benefits of gardening. Our raised garden beds and accessible greenhouse make it easy for res"
+          },
+          "activityType": [
+            {
+              "id": "outdoor",
+              "name": "outdoor"
+            }
+          ],
+          "schedule": "Wednesday and Saturday at 10:00 AM (weather permitting)",
+          "location": "Community Garden and Greenhouse",
+          "instructor": "Martha Reynolds, Master Gardener",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+            "alt": "Seniors enjoying gardening activities outdoors",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

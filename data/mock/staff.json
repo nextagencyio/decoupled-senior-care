@@ -1,0 +1,224 @@
+{
+  "data": {
+    "nodeStaffs": {
+      "__typename": "NodeStaffConnection",
+      "nodes": [
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-thompson",
+          "title": "Dr. Patricia Thompson",
+          "path": "/staff/dr-patricia-thompson",
+          "body": {
+            "processed": "<p>Dr. Thompson is the Medical Director of Golden Horizons Senior Living, overseeing clinical operations across all communities. With over 25 years of experience in geriatric medicine, she is a nationally recognized expert in aging-in-place care models and dementia treatment.</p><p>Under her leadership, Golden Horizons has achieved a 98% family satisfaction rate and has been recognized as a best-in-class senior care provider by multiple industry organizations.</p>",
+            "summary": "Dr. Thompson is the Medical Director of Golden Horizons Senior Living, overseeing clinical operations across all communities. With over 25 years of experience in geriatric medicine, she is a nationall"
+          },
+          "position": "Medical Director",
+          "department": [
+            {
+              "id": "nursing",
+              "name": "nursing"
+            }
+          ],
+          "email": "pthompson@goldenhorizons.com",
+          "phone": "(555) 800-2601",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+            "alt": "Dr. Patricia Thompson, Medical Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": [
+            "Board Certified in Geriatric Medicine",
+            "Certified Medical Director (CMD)",
+            "Dementia Care Specialist"
+          ],
+          "education": {
+            "processed": "<p><strong>MD</strong>, University of California, San Francisco<br/><strong>Residency</strong>, Internal Medicine, Stanford Medical Center<br/><strong>Fellowship</strong>, Geriatric Medicine, Johns Hopkins</p>",
+            "summary": "MD, University of California, San FranciscoResidency, Internal Medicine, Stanford Medical CenterFellowship, Geriatric Medicine, Johns Hopkins"
+          }
+        },
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-rodriguez",
+          "title": "Maria Rodriguez, RN, BSN",
+          "path": "/staff/maria-rodriguez",
+          "body": {
+            "processed": "<p>Maria is the Director of Nursing at Maple Court Assisted Living, where she leads a team of 40 nursing professionals. Her patient-first philosophy and commitment to continuing education have established Maple Court as a leader in assisted living care quality.</p><p>Maria specializes in chronic disease management, medication safety, and fall prevention programs for seniors.</p>",
+            "summary": "Maria is the Director of Nursing at Maple Court Assisted Living, where she leads a team of 40 nursing professionals. Her patient-first philosophy and commitment to continuing education have establishe"
+          },
+          "position": "Director of Nursing",
+          "department": [
+            {
+              "id": "nursing",
+              "name": "nursing"
+            }
+          ],
+          "email": "mrodriguez@goldenhorizons.com",
+          "phone": "(555) 800-2602",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Maria Rodriguez, Director of Nursing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": [
+            "Registered Nurse (RN)",
+            "Certified Gerontological Nurse (GN-BC)",
+            "CPR/AED Instructor"
+          ],
+          "education": {
+            "processed": "<p><strong>BSN</strong>, University of Southern California<br/><strong>MSN</strong>, Geriatric Nursing, UCLA</p>",
+            "summary": "BSN, University of Southern CaliforniaMSN, Geriatric Nursing, UCLA"
+          }
+        },
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-williams",
+          "title": "James Williams",
+          "path": "/staff/james-williams",
+          "body": {
+            "processed": "<p>James serves as the Executive Director of Golden Horizons Senior Living, bringing over 20 years of senior care leadership experience. He is passionate about creating community environments where seniors feel valued, engaged, and at home.</p><p>James has led the expansion of Golden Horizons from a single community to four distinct residences, each tailored to meet different levels of care while maintaining the highest standards of quality and compassion.</p>",
+            "summary": "James serves as the Executive Director of Golden Horizons Senior Living, bringing over 20 years of senior care leadership experience. He is passionate about creating community environments where senio"
+          },
+          "position": "Executive Director",
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "email": "jwilliams@goldenhorizons.com",
+          "phone": "(555) 800-2600",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "James Williams, Executive Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": [
+            "Licensed Nursing Home Administrator (LNHA)",
+            "Certified Senior Advisor (CSA)"
+          ],
+          "education": {
+            "processed": "<p><strong>MBA</strong>, Healthcare Administration, Duke University<br/><strong>BA</strong>, Business Management, University of Virginia</p>",
+            "summary": "MBA, Healthcare Administration, Duke UniversityBA, Business Management, University of Virginia"
+          }
+        },
+        {
+          "__typename": "NodeStaff",
+          "id": "staff-chen",
+          "title": "Lisa Chen, OTR/L",
+          "path": "/staff/lisa-chen",
+          "body": {
+            "processed": "<p>Lisa is the Lead Occupational Therapist at Oakwood Skilled Nursing & Rehabilitation. She specializes in helping seniors regain independence in daily activities following surgery, stroke, or other health events. Her innovative approach to therapy incorporates real-world tasks and adaptive equipment training.</p><p>Lisa also coordinates our fall prevention program, which has reduced fall incidents by 40% across all communities since its implementation.</p>",
+            "summary": "Lisa is the Lead Occupational Therapist at Oakwood Skilled Nursing & Rehabilitation. She specializes in helping seniors regain independence in daily activities following surgery, stroke, or other heal"
+          },
+          "position": "Lead Occupational Therapist",
+          "department": [
+            {
+              "id": "rehabilitation",
+              "name": "rehabilitation"
+            }
+          ],
+          "email": "lchen@goldenhorizons.com",
+          "phone": "(555) 800-2603",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Lisa Chen, Lead Occupational Therapist",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "certifications": [
+            "Occupational Therapist, Registered/Licensed (OTR/L)",
+            "Certified Aging in Place Specialist (CAPS)",
+            "Certified Fall Prevention Specialist"
+          ],
+          "education": {
+            "processed": "<p><strong>MS</strong>, Occupational Therapy, Boston University<br/><strong>BS</strong>, Kinesiology, UC Davis</p>",
+            "summary": "MS, Occupational Therapy, Boston UniversityBS, Kinesiology, UC Davis"
+          }
+        }
+      ]
+    }
+  }
+}

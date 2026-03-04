@@ -1,0 +1,512 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Senior care community homepage with hero, featured communities, and CTA",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_communities_title", "label": "Featured Communities Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA Text", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA Text", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "community",
+      "label": "Community",
+      "description": "Senior living communities and residences",
+      "body": true,
+      "fields": [
+        { "id": "care_level", "label": "Care Level", "type": "term(care_levels)[]", "description": "Independent Living, Assisted Living, Memory Care, etc." },
+        { "id": "address", "label": "Address", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "capacity", "label": "Capacity", "type": "string", "description": "Number of residents (e.g., '120 residents')" },
+        { "id": "amenities", "label": "Amenities", "type": "string[]", "description": "Key amenities offered" },
+        { "id": "image", "label": "Featured Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "Care services and programs offered to residents",
+      "body": true,
+      "fields": [
+        { "id": "service_category", "label": "Service Category", "type": "term(service_categories)[]" },
+        { "id": "availability", "label": "Availability", "type": "string", "description": "24/7, weekdays, by appointment, etc." },
+        { "id": "image", "label": "Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "activity",
+      "label": "Activity",
+      "description": "Activities, classes, and social programs for residents",
+      "body": true,
+      "fields": [
+        { "id": "activity_type", "label": "Activity Type", "type": "term(activity_types)[]" },
+        { "id": "schedule", "label": "Schedule", "type": "string", "description": "When the activity takes place" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "instructor", "label": "Instructor", "type": "string" },
+        { "id": "image", "label": "Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "staff",
+      "label": "Staff Member",
+      "description": "Care team members, administrators, and support staff",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position/Title", "type": "string" },
+        { "id": "department", "label": "Department", "type": "term(departments)[]" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "photo", "label": "Photo", "type": "image" },
+        { "id": "certifications", "label": "Certifications", "type": "string[]" },
+        { "id": "education", "label": "Education", "type": "text" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!", "description": "The statistic value" },
+        { "id": "label", "label": "Label", "type": "string!", "description": "What the number represents" }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vocabulary": "care_levels",
+      "label": "Care Levels",
+      "terms": [
+        { "id": "independent-living", "name": "Independent Living" },
+        { "id": "assisted-living", "name": "Assisted Living" },
+        { "id": "memory-care", "name": "Memory Care" },
+        { "id": "skilled-nursing", "name": "Skilled Nursing" },
+        { "id": "respite-care", "name": "Respite Care" }
+      ]
+    },
+    {
+      "vocabulary": "service_categories",
+      "label": "Service Categories",
+      "terms": [
+        { "id": "healthcare", "name": "Healthcare" },
+        { "id": "therapy", "name": "Therapy & Rehabilitation" },
+        { "id": "wellness", "name": "Wellness" },
+        { "id": "personal-care", "name": "Personal Care" },
+        { "id": "home-health", "name": "Home Health" }
+      ]
+    },
+    {
+      "vocabulary": "activity_types",
+      "label": "Activity Types",
+      "terms": [
+        { "id": "fitness", "name": "Fitness & Exercise" },
+        { "id": "arts", "name": "Arts & Crafts" },
+        { "id": "social", "name": "Social & Community" },
+        { "id": "educational", "name": "Educational" },
+        { "id": "outdoor", "name": "Outdoor & Nature" }
+      ]
+    },
+    {
+      "vocabulary": "departments",
+      "label": "Departments",
+      "terms": [
+        { "id": "nursing", "name": "Nursing" },
+        { "id": "administration", "name": "Administration" },
+        { "id": "activities", "name": "Activities & Recreation" },
+        { "id": "dining", "name": "Dining Services" },
+        { "id": "rehabilitation", "name": "Rehabilitation" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-residents",
+      "type": "paragraph.stat_item",
+      "values": { "number": "500+", "label": "Happy Residents" }
+    },
+    {
+      "id": "stat-staff",
+      "type": "paragraph.stat_item",
+      "values": { "number": "200+", "label": "Dedicated Staff" }
+    },
+    {
+      "id": "stat-years",
+      "type": "paragraph.stat_item",
+      "values": { "number": "25+", "label": "Years of Service" }
+    },
+    {
+      "id": "stat-satisfaction",
+      "type": "paragraph.stat_item",
+      "values": { "number": "98%", "label": "Family Satisfaction" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Golden Horizons Senior Living",
+        "hero_title": "Where Every Day Feels Like Home",
+        "hero_subtitle": "Compassionate Senior Care, Vibrant Community Living",
+        "hero_description": "<p>At Golden Horizons, we believe every senior deserves to live with dignity, joy, and purpose. Our award-winning communities offer personalized care plans, engaging activities, and a warm, welcoming environment where residents thrive.</p>",
+        "stats_items": ["@stat-residents", "@stat-staff", "@stat-years", "@stat-satisfaction"],
+        "featured_communities_title": "Our Communities",
+        "cta_title": "Ready to Learn More?",
+        "cta_description": "<p>Schedule a personal tour of any of our communities and discover the Golden Horizons difference. Our care advisors are here to answer your questions and help find the perfect fit for your loved one.</p>",
+        "cta_primary": "Schedule a Tour",
+        "cta_secondary": "Call (555) 800-2500"
+      }
+    },
+    {
+      "id": "community-sunrise-gardens",
+      "type": "node.community",
+      "path": "/communities/sunrise-gardens-independent-living",
+      "values": {
+        "title": "Sunrise Gardens Independent Living",
+        "body": "<p>Sunrise Gardens offers vibrant independent living for active seniors who want maintenance-free living with access to resort-style amenities. Nestled on 15 beautifully landscaped acres, residents enjoy private apartments, chef-prepared meals, and a full calendar of social and recreational activities.</p><h2>Community Highlights</h2><ul><li>Spacious one- and two-bedroom apartments</li><li>Three chef-prepared meals daily</li><li>Heated indoor pool and fitness center</li><li>Walking trails and gardens</li><li>Weekly housekeeping and linen service</li><li>24-hour security and emergency response</li></ul><h2>Dining</h2><p>Our executive chef prepares three delicious meals daily using fresh, locally sourced ingredients. Residents enjoy restaurant-style dining in our elegant dining room, with options to accommodate special dietary needs.</p>",
+        "care_level": ["independent-living"],
+        "address": "1200 Sunrise Drive, Meadowbrook, CA 94501",
+        "phone": "(555) 800-2510",
+        "capacity": "120 residents",
+        "amenities": [
+          "Indoor Pool",
+          "Fitness Center",
+          "Library",
+          "Beauty Salon",
+          "Movie Theater",
+          "Garden Courtyard"
+        ],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "alt": "Sunrise Gardens Independent Living community exterior"
+        }
+      }
+    },
+    {
+      "id": "community-maple-court",
+      "type": "node.community",
+      "path": "/communities/maple-court-assisted-living",
+      "values": {
+        "title": "Maple Court Assisted Living",
+        "body": "<p>Maple Court provides personalized assisted living for seniors who need a helping hand with daily activities while maintaining their independence and dignity. Our compassionate care team is available around the clock to assist with bathing, dressing, medication management, and more.</p><h2>Care Services</h2><ul><li>Personalized care plans</li><li>24-hour licensed nursing staff</li><li>Medication management</li><li>Assistance with daily activities</li><li>Regular wellness assessments</li><li>Physical therapy on-site</li></ul><h2>Living Spaces</h2><p>Choose from private and semi-private suites, each designed with safety features including grab bars, emergency call systems, and wide doorways for mobility aids.</p>",
+        "care_level": ["assisted-living"],
+        "address": "850 Maple Court, Meadowbrook, CA 94502",
+        "phone": "(555) 800-2520",
+        "capacity": "85 residents",
+        "amenities": [
+          "On-Site Pharmacy",
+          "Physical Therapy Room",
+          "Activity Center",
+          "Chapel",
+          "Outdoor Patio",
+          "Family Visiting Lounge"
+        ],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800&q=80",
+          "alt": "Maple Court Assisted Living community building"
+        }
+      }
+    },
+    {
+      "id": "community-willow-brook",
+      "type": "node.community",
+      "path": "/communities/willow-brook-memory-care",
+      "values": {
+        "title": "Willow Brook Memory Care",
+        "body": "<p>Willow Brook is our specialized memory care community designed exclusively for seniors living with Alzheimer's disease and other forms of dementia. Our secure, purpose-built environment and specially trained staff provide compassionate care that preserves dignity and enhances quality of life.</p><h2>Specialized Programs</h2><ul><li>Person-centered memory care philosophy</li><li>Structured daily routines for comfort</li><li>Montessori-based engagement activities</li><li>Secure outdoor walking paths</li><li>Sensory stimulation therapy</li><li>Family education and support groups</li></ul><h2>Safety Features</h2><p>Willow Brook features secured entrances and exits, motion-sensor lighting, color-coded hallways for wayfinding, and continuous staff monitoring to ensure resident safety at all times.</p>",
+        "care_level": ["memory-care"],
+        "address": "300 Willow Brook Lane, Meadowbrook, CA 94503",
+        "phone": "(555) 800-2530",
+        "capacity": "48 residents",
+        "amenities": [
+          "Secure Garden",
+          "Sensory Room",
+          "Art Studio",
+          "Music Therapy Room",
+          "Family Dining Area",
+          "Quiet Reflection Spaces"
+        ],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1559034750-cdab70a66b8e?w=800&q=80",
+          "alt": "Willow Brook Memory Care peaceful garden setting"
+        }
+      }
+    },
+    {
+      "id": "community-oakwood",
+      "type": "node.community",
+      "path": "/communities/oakwood-skilled-nursing",
+      "values": {
+        "title": "Oakwood Skilled Nursing & Rehabilitation",
+        "body": "<p>Oakwood provides comprehensive skilled nursing care and short-term rehabilitation services. Whether recovering from surgery, managing a chronic condition, or requiring long-term nursing care, our clinical team delivers personalized medical attention in a comfortable, home-like setting.</p><h2>Clinical Services</h2><ul><li>24/7 registered nurse coverage</li><li>Physician visits and telehealth</li><li>IV therapy and wound care</li><li>Post-surgical rehabilitation</li><li>Chronic disease management</li><li>Palliative and hospice care</li></ul><h2>Rehabilitation</h2><p>Our on-site rehabilitation center features state-of-the-art equipment and a team of physical, occupational, and speech therapists who work together to help patients regain strength and independence.</p>",
+        "care_level": ["skilled-nursing"],
+        "address": "500 Oakwood Drive, Meadowbrook, CA 94504",
+        "phone": "(555) 800-2540",
+        "capacity": "60 residents",
+        "amenities": [
+          "Rehabilitation Gym",
+          "Therapy Pool",
+          "Private and Semi-Private Rooms",
+          "On-Site Lab and X-Ray",
+          "Outdoor Terrace",
+          "Family Conference Room"
+        ],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+          "alt": "Oakwood Skilled Nursing modern facility"
+        }
+      }
+    },
+    {
+      "id": "service-memory-care",
+      "type": "node.service",
+      "path": "/services/memory-care",
+      "values": {
+        "title": "Memory Care",
+        "body": "<p>Our Memory Care program provides specialized, compassionate support for individuals living with Alzheimer's disease and other forms of dementia. Using evidence-based approaches and person-centered care, we help residents maintain their highest level of functioning while ensuring safety and comfort.</p><h2>Our Approach</h2><ul><li>Individualized care plans based on cognitive assessments</li><li>Montessori-inspired engagement activities</li><li>Structured daily routines to reduce anxiety</li><li>Reminiscence therapy and life story work</li><li>Trained dementia care specialists on staff 24/7</li></ul><h2>Family Support</h2><p>We understand that dementia affects the entire family. Our memory care program includes regular family meetings, educational workshops, and support groups to help loved ones navigate the journey together.</p>",
+        "service_category": ["healthcare"],
+        "availability": "24/7",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+          "alt": "Memory care specialist working with a senior resident"
+        }
+      }
+    },
+    {
+      "id": "service-rehabilitation",
+      "type": "node.service",
+      "path": "/services/rehabilitation",
+      "values": {
+        "title": "Rehabilitation Services",
+        "body": "<p>Our comprehensive rehabilitation program helps residents recover from surgery, injury, or illness and regain their independence. Our team of licensed therapists creates personalized treatment plans designed to achieve measurable outcomes and improve quality of life.</p><h2>Therapy Services</h2><ul><li>Physical therapy for strength and mobility</li><li>Occupational therapy for daily living skills</li><li>Speech-language therapy for communication and swallowing</li><li>Cardiac and pulmonary rehabilitation</li><li>Pain management programs</li></ul><h2>State-of-the-Art Facilities</h2><p>Our rehabilitation center features modern equipment including parallel bars, therapeutic exercise machines, a therapy kitchen for daily living practice, and a heated therapy pool for aquatic rehabilitation.</p>",
+        "service_category": ["therapy"],
+        "availability": "Monday through Saturday, 7:00 AM - 6:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+          "alt": "Rehabilitation therapist assisting a patient with exercises"
+        }
+      }
+    },
+    {
+      "id": "service-home-health",
+      "type": "node.service",
+      "path": "/services/home-health",
+      "values": {
+        "title": "Home Health Services",
+        "body": "<p>Golden Horizons Home Health brings professional care services directly to seniors in their own homes. Our licensed caregivers and nurses provide personalized support that allows seniors to age in place safely while maintaining their independence and comfort.</p><h2>Services Offered</h2><ul><li>Skilled nursing visits</li><li>Personal care assistance (bathing, grooming, dressing)</li><li>Medication reminders and management</li><li>Meal preparation and nutrition support</li><li>Light housekeeping and laundry</li><li>Transportation to appointments</li></ul><h2>Flexible Scheduling</h2><p>We offer flexible scheduling options including hourly visits, half-day care, full-day care, and 24-hour live-in assistance. Our care coordinators work with each family to create a schedule that meets their unique needs.</p>",
+        "service_category": ["home-health"],
+        "availability": "Flexible scheduling, 7 days a week",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576765608622-067973a79f53?w=800&q=80",
+          "alt": "Home health caregiver visiting a senior at home"
+        }
+      }
+    },
+    {
+      "id": "service-wellness",
+      "type": "node.service",
+      "path": "/services/wellness-programs",
+      "values": {
+        "title": "Wellness Programs",
+        "body": "<p>Our holistic wellness programs are designed to nurture the physical, mental, emotional, and spiritual well-being of every resident. From fitness classes to mindfulness sessions, we offer a wide range of programs that promote healthy aging and vibrant living.</p><h2>Program Areas</h2><ul><li>Exercise and fitness classes</li><li>Nutritional counseling and healthy cooking</li><li>Stress reduction and mindfulness</li><li>Health screenings and preventive care</li><li>Fall prevention programs</li><li>Chronic disease management education</li></ul><h2>Wellness Assessments</h2><p>Each resident receives a comprehensive wellness assessment upon move-in and quarterly thereafter. Our wellness team uses these assessments to create personalized wellness plans that address individual goals and health needs.</p>",
+        "service_category": ["wellness"],
+        "availability": "Daily programs available",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+          "alt": "Senior residents participating in a wellness class"
+        }
+      }
+    },
+    {
+      "id": "activity-yoga",
+      "type": "node.activity",
+      "path": "/activities/yoga-for-seniors",
+      "values": {
+        "title": "Yoga for Seniors",
+        "body": "<p>Our gentle yoga classes are specially designed for older adults of all ability levels. Using chair-based and standing poses, residents improve flexibility, balance, and strength while reducing stress and promoting relaxation.</p><h2>Class Format</h2><p>Each 45-minute session includes gentle warm-up movements, modified yoga poses appropriate for all mobility levels, breathing exercises, and a guided relaxation period. Props such as chairs, blocks, and straps are provided to ensure comfort and safety.</p><h2>Benefits</h2><ul><li>Improved flexibility and range of motion</li><li>Better balance and fall prevention</li><li>Reduced joint pain and stiffness</li><li>Lower stress and improved sleep quality</li><li>Enhanced sense of community and well-being</li></ul>",
+        "activity_type": ["fitness"],
+        "schedule": "Monday, Wednesday, Friday at 9:00 AM",
+        "location": "Wellness Studio, Building A",
+        "instructor": "Sarah Mitchell, RYT-200",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+          "alt": "Seniors practicing gentle yoga together"
+        }
+      }
+    },
+    {
+      "id": "activity-art-therapy",
+      "type": "node.activity",
+      "path": "/activities/art-therapy",
+      "values": {
+        "title": "Art Therapy",
+        "body": "<p>Our Art Therapy program provides creative expression opportunities that support emotional well-being, cognitive stimulation, and social connection. Led by a certified art therapist, sessions are designed to be enjoyable and accessible regardless of artistic experience.</p><h2>Activities Include</h2><ul><li>Watercolor and acrylic painting</li><li>Clay sculpting and pottery</li><li>Collage and mixed media</li><li>Drawing and sketching</li><li>Seasonal craft projects</li></ul><h2>Therapeutic Benefits</h2><p>Art therapy has been shown to reduce anxiety, improve mood, and enhance cognitive function in older adults. Our program is especially beneficial for residents with memory challenges, providing a non-verbal outlet for expression and connection.</p>",
+        "activity_type": ["arts"],
+        "schedule": "Tuesday and Thursday at 2:00 PM",
+        "location": "Art Studio, Community Center",
+        "instructor": "David Chen, ATR-BC",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+          "alt": "Seniors enjoying art therapy painting session"
+        }
+      }
+    },
+    {
+      "id": "activity-social-hours",
+      "type": "node.activity",
+      "path": "/activities/social-hours",
+      "values": {
+        "title": "Social Hours & Community Events",
+        "body": "<p>Our vibrant social calendar brings residents together for meaningful connections, laughter, and shared experiences. From happy hours to holiday celebrations, our activities team creates opportunities for friendship and fun throughout the year.</p><h2>Regular Events</h2><ul><li>Friday Afternoon Social Hour with live music</li><li>Monthly birthday celebrations</li><li>Game nights (bingo, trivia, card games)</li><li>Movie matinees with popcorn</li><li>Holiday parties and seasonal celebrations</li><li>Intergenerational programs with local schools</li></ul><h2>Community Outings</h2><p>We organize regular group outings to local restaurants, theaters, museums, and parks. Our comfortable transportation vehicles are wheelchair-accessible, ensuring everyone can participate.</p>",
+        "activity_type": ["social"],
+        "schedule": "Friday at 3:00 PM, plus special events monthly",
+        "location": "Grand Hall, Community Center",
+        "instructor": "Activities Team",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+          "alt": "Senior residents enjoying a social gathering together"
+        }
+      }
+    },
+    {
+      "id": "activity-garden-club",
+      "type": "node.activity",
+      "path": "/activities/garden-club",
+      "values": {
+        "title": "Garden Club",
+        "body": "<p>The Golden Horizons Garden Club gives residents the chance to connect with nature and enjoy the therapeutic benefits of gardening. Our raised garden beds and accessible greenhouse make it easy for residents of all mobility levels to participate in planting, tending, and harvesting.</p><h2>Activities</h2><ul><li>Seasonal planting and harvesting</li><li>Container gardening workshops</li><li>Flower arranging classes</li><li>Herb garden maintenance</li><li>Nature walks on campus trails</li></ul><h2>Benefits</h2><p>Gardening provides gentle exercise, sensory stimulation, and a sense of purpose and accomplishment. Residents enjoy sharing their harvest with the community kitchen and creating beautiful flower arrangements for common areas.</p>",
+        "activity_type": ["outdoor"],
+        "schedule": "Wednesday and Saturday at 10:00 AM (weather permitting)",
+        "location": "Community Garden and Greenhouse",
+        "instructor": "Martha Reynolds, Master Gardener",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+          "alt": "Seniors enjoying gardening activities outdoors"
+        }
+      }
+    },
+    {
+      "id": "staff-thompson",
+      "type": "node.staff",
+      "path": "/staff/dr-patricia-thompson",
+      "values": {
+        "title": "Dr. Patricia Thompson",
+        "body": "<p>Dr. Thompson is the Medical Director of Golden Horizons Senior Living, overseeing clinical operations across all communities. With over 25 years of experience in geriatric medicine, she is a nationally recognized expert in aging-in-place care models and dementia treatment.</p><p>Under her leadership, Golden Horizons has achieved a 98% family satisfaction rate and has been recognized as a best-in-class senior care provider by multiple industry organizations.</p>",
+        "position": "Medical Director",
+        "department": ["nursing"],
+        "email": "pthompson@goldenhorizons.com",
+        "phone": "(555) 800-2601",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+          "alt": "Dr. Patricia Thompson, Medical Director"
+        },
+        "certifications": [
+          "Board Certified in Geriatric Medicine",
+          "Certified Medical Director (CMD)",
+          "Dementia Care Specialist"
+        ],
+        "education": "<p><strong>MD</strong>, University of California, San Francisco<br/><strong>Residency</strong>, Internal Medicine, Stanford Medical Center<br/><strong>Fellowship</strong>, Geriatric Medicine, Johns Hopkins</p>"
+      }
+    },
+    {
+      "id": "staff-rodriguez",
+      "type": "node.staff",
+      "path": "/staff/maria-rodriguez",
+      "values": {
+        "title": "Maria Rodriguez, RN, BSN",
+        "body": "<p>Maria is the Director of Nursing at Maple Court Assisted Living, where she leads a team of 40 nursing professionals. Her patient-first philosophy and commitment to continuing education have established Maple Court as a leader in assisted living care quality.</p><p>Maria specializes in chronic disease management, medication safety, and fall prevention programs for seniors.</p>",
+        "position": "Director of Nursing",
+        "department": ["nursing"],
+        "email": "mrodriguez@goldenhorizons.com",
+        "phone": "(555) 800-2602",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+          "alt": "Maria Rodriguez, Director of Nursing"
+        },
+        "certifications": [
+          "Registered Nurse (RN)",
+          "Certified Gerontological Nurse (GN-BC)",
+          "CPR/AED Instructor"
+        ],
+        "education": "<p><strong>BSN</strong>, University of Southern California<br/><strong>MSN</strong>, Geriatric Nursing, UCLA</p>"
+      }
+    },
+    {
+      "id": "staff-williams",
+      "type": "node.staff",
+      "path": "/staff/james-williams",
+      "values": {
+        "title": "James Williams",
+        "body": "<p>James serves as the Executive Director of Golden Horizons Senior Living, bringing over 20 years of senior care leadership experience. He is passionate about creating community environments where seniors feel valued, engaged, and at home.</p><p>James has led the expansion of Golden Horizons from a single community to four distinct residences, each tailored to meet different levels of care while maintaining the highest standards of quality and compassion.</p>",
+        "position": "Executive Director",
+        "department": ["administration"],
+        "email": "jwilliams@goldenhorizons.com",
+        "phone": "(555) 800-2600",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+          "alt": "James Williams, Executive Director"
+        },
+        "certifications": [
+          "Licensed Nursing Home Administrator (LNHA)",
+          "Certified Senior Advisor (CSA)"
+        ],
+        "education": "<p><strong>MBA</strong>, Healthcare Administration, Duke University<br/><strong>BA</strong>, Business Management, University of Virginia</p>"
+      }
+    },
+    {
+      "id": "staff-chen",
+      "type": "node.staff",
+      "path": "/staff/lisa-chen",
+      "values": {
+        "title": "Lisa Chen, OTR/L",
+        "body": "<p>Lisa is the Lead Occupational Therapist at Oakwood Skilled Nursing & Rehabilitation. She specializes in helping seniors regain independence in daily activities following surgery, stroke, or other health events. Her innovative approach to therapy incorporates real-world tasks and adaptive equipment training.</p><p>Lisa also coordinates our fall prevention program, which has reduced fall incidents by 40% across all communities since its implementation.</p>",
+        "position": "Lead Occupational Therapist",
+        "department": ["rehabilitation"],
+        "email": "lchen@goldenhorizons.com",
+        "phone": "(555) 800-2603",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+          "alt": "Lisa Chen, Lead Occupational Therapist"
+        },
+        "certifications": [
+          "Occupational Therapist, Registered/Licensed (OTR/L)",
+          "Certified Aging in Place Specialist (CAPS)",
+          "Certified Fall Prevention Specialist"
+        ],
+        "education": "<p><strong>MS</strong>, Occupational Therapy, Boston University<br/><strong>BS</strong>, Kinesiology, UC Davis</p>"
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Golden Horizons Senior Living",
+        "body": "<p>Founded in 1999, Golden Horizons Senior Living has been a trusted provider of compassionate senior care for over 25 years. What started as a single assisted living community has grown into a family of four distinctive residences, each designed to meet the unique needs of seniors at every stage of aging.</p><h2>Our Mission</h2><p>To enrich the lives of seniors and their families by providing exceptional care, meaningful engagement, and a warm community where every individual is valued and respected.</p><h2>Our Values</h2><ul><li><strong>Compassion</strong> - We treat every resident as we would our own family member.</li><li><strong>Dignity</strong> - We honor each person's individuality, preferences, and life story.</li><li><strong>Excellence</strong> - We pursue the highest standards in care, safety, and service.</li><li><strong>Community</strong> - We foster genuine connections that enrich daily life.</li><li><strong>Innovation</strong> - We embrace new approaches to enhance quality of care and quality of life.</li></ul><h2>Accreditation & Recognition</h2><p>Golden Horizons communities are accredited by CARF International and have earned the Gold Seal of Approval from The Joint Commission. We have been recognized as a U.S. News Best Senior Living community for five consecutive years.</p>"
+      }
+    },
+    {
+      "id": "page-contact",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact Us",
+        "body": "<h2>Get in Touch</h2><p>We would love to hear from you. Whether you have questions about our communities, need help choosing the right care level, or want to schedule a tour, our care advisors are here to help.</p><h2>Main Office</h2><p><strong>Golden Horizons Senior Living</strong><br/>1000 Golden Horizons Parkway<br/>Meadowbrook, CA 94500<br/>Phone: (555) 800-2500<br/>Email: info@goldenhorizons.com</p><h2>Care Advisor Hours</h2><p>Monday through Friday: 8:00 AM - 6:00 PM<br/>Saturday: 9:00 AM - 3:00 PM<br/>Sunday: By appointment only</p><h2>Schedule a Tour</h2><p>Personal tours are available seven days a week by appointment. During your visit, you will tour the community, meet our staff, enjoy a complimentary meal, and learn about our care programs and pricing. Call (555) 800-2500 or email tours@goldenhorizons.com to schedule your visit today.</p>"
+      }
+    }
+  ]
+}

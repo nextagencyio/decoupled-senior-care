@@ -1,0 +1,221 @@
+{
+  "data": {
+    "nodeCommunities": {
+      "__typename": "NodeCommunityConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCommunity",
+          "id": "community-sunrise-gardens",
+          "title": "Sunrise Gardens Independent Living",
+          "path": "/communities/sunrise-gardens-independent-living",
+          "body": {
+            "processed": "<p>Sunrise Gardens offers vibrant independent living for active seniors who want maintenance-free living with access to resort-style amenities. Nestled on 15 beautifully landscaped acres, residents enjoy private apartments, chef-prepared meals, and a full calendar of social and recreational activities.</p><h2>Community Highlights</h2><ul><li>Spacious one- and two-bedroom apartments</li><li>Three chef-prepared meals daily</li><li>Heated indoor pool and fitness center</li><li>Walking trails and gardens</li><li>Weekly housekeeping and linen service</li><li>24-hour security and emergency response</li></ul><h2>Dining</h2><p>Our executive chef prepares three delicious meals daily using fresh, locally sourced ingredients. Residents enjoy restaurant-style dining in our elegant dining room, with options to accommodate special dietary needs.</p>",
+            "summary": "Sunrise Gardens offers vibrant independent living for active seniors who want maintenance-free living with access to resort-style amenities. Nestled on 15 beautifully landscaped acres, residents enjoy"
+          },
+          "careLevel": [
+            {
+              "id": "independent-living",
+              "name": "independent-living"
+            }
+          ],
+          "address": "1200 Sunrise Drive, Meadowbrook, CA 94501",
+          "phone": "(555) 800-2510",
+          "capacity": "120 residents",
+          "amenities": [
+            "Indoor Pool",
+            "Fitness Center",
+            "Library",
+            "Beauty Salon",
+            "Movie Theater",
+            "Garden Courtyard"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+            "alt": "Sunrise Gardens Independent Living community exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCommunity",
+          "id": "community-maple-court",
+          "title": "Maple Court Assisted Living",
+          "path": "/communities/maple-court-assisted-living",
+          "body": {
+            "processed": "<p>Maple Court provides personalized assisted living for seniors who need a helping hand with daily activities while maintaining their independence and dignity. Our compassionate care team is available around the clock to assist with bathing, dressing, medication management, and more.</p><h2>Care Services</h2><ul><li>Personalized care plans</li><li>24-hour licensed nursing staff</li><li>Medication management</li><li>Assistance with daily activities</li><li>Regular wellness assessments</li><li>Physical therapy on-site</li></ul><h2>Living Spaces</h2><p>Choose from private and semi-private suites, each designed with safety features including grab bars, emergency call systems, and wide doorways for mobility aids.</p>",
+            "summary": "Maple Court provides personalized assisted living for seniors who need a helping hand with daily activities while maintaining their independence and dignity. Our compassionate care team is available a"
+          },
+          "careLevel": [
+            {
+              "id": "assisted-living",
+              "name": "assisted-living"
+            }
+          ],
+          "address": "850 Maple Court, Meadowbrook, CA 94502",
+          "phone": "(555) 800-2520",
+          "capacity": "85 residents",
+          "amenities": [
+            "On-Site Pharmacy",
+            "Physical Therapy Room",
+            "Activity Center",
+            "Chapel",
+            "Outdoor Patio",
+            "Family Visiting Lounge"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800&q=80",
+            "alt": "Maple Court Assisted Living community building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCommunity",
+          "id": "community-willow-brook",
+          "title": "Willow Brook Memory Care",
+          "path": "/communities/willow-brook-memory-care",
+          "body": {
+            "processed": "<p>Willow Brook is our specialized memory care community designed exclusively for seniors living with Alzheimer's disease and other forms of dementia. Our secure, purpose-built environment and specially trained staff provide compassionate care that preserves dignity and enhances quality of life.</p><h2>Specialized Programs</h2><ul><li>Person-centered memory care philosophy</li><li>Structured daily routines for comfort</li><li>Montessori-based engagement activities</li><li>Secure outdoor walking paths</li><li>Sensory stimulation therapy</li><li>Family education and support groups</li></ul><h2>Safety Features</h2><p>Willow Brook features secured entrances and exits, motion-sensor lighting, color-coded hallways for wayfinding, and continuous staff monitoring to ensure resident safety at all times.</p>",
+            "summary": "Willow Brook is our specialized memory care community designed exclusively for seniors living with Alzheimer's disease and other forms of dementia. Our secure, purpose-built environment and specially "
+          },
+          "careLevel": [
+            {
+              "id": "memory-care",
+              "name": "memory-care"
+            }
+          ],
+          "address": "300 Willow Brook Lane, Meadowbrook, CA 94503",
+          "phone": "(555) 800-2530",
+          "capacity": "48 residents",
+          "amenities": [
+            "Secure Garden",
+            "Sensory Room",
+            "Art Studio",
+            "Music Therapy Room",
+            "Family Dining Area",
+            "Quiet Reflection Spaces"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559034750-cdab70a66b8e?w=800&q=80",
+            "alt": "Willow Brook Memory Care peaceful garden setting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559034750-cdab70a66b8e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559034750-cdab70a66b8e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559034750-cdab70a66b8e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCommunity",
+          "id": "community-oakwood",
+          "title": "Oakwood Skilled Nursing & Rehabilitation",
+          "path": "/communities/oakwood-skilled-nursing",
+          "body": {
+            "processed": "<p>Oakwood provides comprehensive skilled nursing care and short-term rehabilitation services. Whether recovering from surgery, managing a chronic condition, or requiring long-term nursing care, our clinical team delivers personalized medical attention in a comfortable, home-like setting.</p><h2>Clinical Services</h2><ul><li>24/7 registered nurse coverage</li><li>Physician visits and telehealth</li><li>IV therapy and wound care</li><li>Post-surgical rehabilitation</li><li>Chronic disease management</li><li>Palliative and hospice care</li></ul><h2>Rehabilitation</h2><p>Our on-site rehabilitation center features state-of-the-art equipment and a team of physical, occupational, and speech therapists who work together to help patients regain strength and independence.</p>",
+            "summary": "Oakwood provides comprehensive skilled nursing care and short-term rehabilitation services. Whether recovering from surgery, managing a chronic condition, or requiring long-term nursing care, our clin"
+          },
+          "careLevel": [
+            {
+              "id": "skilled-nursing",
+              "name": "skilled-nursing"
+            }
+          ],
+          "address": "500 Oakwood Drive, Meadowbrook, CA 94504",
+          "phone": "(555) 800-2540",
+          "capacity": "60 residents",
+          "amenities": [
+            "Rehabilitation Gym",
+            "Therapy Pool",
+            "Private and Semi-Private Rooms",
+            "On-Site Lab and X-Ray",
+            "Outdoor Terrace",
+            "Family Conference Room"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+            "alt": "Oakwood Skilled Nursing modern facility",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
