@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import CommunityCard from '../components/CommunityCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Communities | Senior Care',
