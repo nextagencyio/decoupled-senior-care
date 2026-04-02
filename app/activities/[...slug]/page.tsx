@@ -24,7 +24,7 @@ interface ActivityByPathData {
 async function getActivity(path: string): Promise<DrupalActivity | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_ACTIVITY_BY_PATH, { path })
+    const data = await client.raw(GET_ACTIVITY_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching activity:', error)
