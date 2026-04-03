@@ -274,7 +274,7 @@ export const GET_ACTIVITY_BY_PATH = gql`
 // Staff
 export const GET_STAFF = gql`
   query GetStaff($first: Int = 50) {
-    nodeStaffs(first: $first, sortKey: TITLE) {
+    nodeStaffItems(first: $first, sortKey: TITLE) {
       nodes {
         id
         title

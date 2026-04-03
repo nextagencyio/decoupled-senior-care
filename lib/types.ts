@@ -136,7 +136,7 @@ export interface DrupalStaff extends DrupalNode {
 }
 
 export interface StaffData {
-  nodeStaffs: {
+  nodeStaffItems: {
     nodes: DrupalStaff[]
   }
 }
